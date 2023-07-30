@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Product(props) {
+function Products(props) {
     return (
         <>
             <tr key={props.id} >
@@ -12,4 +12,4 @@ function Product(props) {
     )
 }
 
-export default Product
+export default Products
